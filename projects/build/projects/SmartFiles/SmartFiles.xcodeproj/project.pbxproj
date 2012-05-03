@@ -1,0 +1,1223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		129E1D4DF5634B47BF700E07 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D90639CDC1AC43BA8E54F87B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				BFEEAD57B8504EBB8D9E98BB /* CMake Rules */,
+			);
+			dependencies = (
+				E4F83B7DB1674B16B2C8E782 /* PBXTargetDependency */,
+				B6D90C6841A2498EA67C3758 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		99C6E6FD3BD448B3B5947D32 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F87AE96093D74F4895D247F9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				790E9B36AE4240B894E87DED /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04AD535D5847459E812DEBBD /* SmartFiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C668E371CBAE4A0E866C2745 /* SmartFiles.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1BE30F4FE86D4748A5B73212 /* Factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8D971587B034111A5318639 /* Factory.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1DAA60DB2B1E453281A3FDF4 /* launcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9818EA9A8B74DDE8AC4A4ED /* launcher.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3360CB9BE54E4DCD97FF8478 /* InfoPlist.strings in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3906F598C3749CC8E35028F /* InfoPlist.strings */; settings = {COMPILER_FLAGS = ""; }; };
+		5C997A4A7D8C4F9199DA48C4 /* process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A722D4C510614626B03E769C /* process.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		66F444CF777B4946B5BFB67E /* path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 107F803FC270470C8580508A /* path.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9FF8BA4C155A443EB1E4B948 /* file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1118E10AC8D94423B82EA64A /* file.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AE79F49E34694C678408C907 /* SmartFilesAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB39615F8D444B9EB57259 /* SmartFilesAPI.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C8D886C6CF9345F3849B6AE5 /* Localized.rsrc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1E8BC100B54E48AF880DD62B /* Localized.rsrc */; settings = {COMPILER_FLAGS = ""; }; };
+		DB2A74CE28F3488A91C09964 /* smartfiles_ipc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79CC8C0322D241549620D6A5 /* smartfiles_ipc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B45791F8EFDF45B08EA2D0A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 201991793021428D98EFA245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C6E6FD3BD448B3B5947D32;
+			remoteInfo = ZERO_CHECK;
+		};
+		BC7D7D41F7254B33BF42753D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 201991793021428D98EFA245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C79C3A4AD44D0C904E19C4;
+			remoteInfo = SmartFiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8211E5FDFB564F9B8AFD3AD9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../Resources/English.lproj;
+			dstSubfolderSpec = 6;
+			files = (
+				3360CB9BE54E4DCD97FF8478 /* InfoPlist.strings in CopyFiles */,
+				C8D886C6CF9345F3849B6AE5 /* Localized.rsrc in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		003DCBEEF6A44EC397DC0ACC /* axplugin_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = axplugin_defs.h; path = ../build/projects/SmartFiles/gen/global/axplugin_defs.h; sourceTree = SOURCE_ROOT; };
+		089E4F49972D4C7BA9E2CA00 /* SmartFiles.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SmartFiles.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		0951C61FC6F743BFA58B4A58 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../build/projects/SmartFiles/gen/global/resource.h; sourceTree = SOURCE_ROOT; };
+		0CE6EDE8124F4B84BC0D5C99 /* process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = process.h; sourceTree = SOURCE_ROOT; };
+		107F803FC270470C8580508A /* path.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = path.cpp; sourceTree = SOURCE_ROOT; };
+		10F12999D50449D8B29F0871 /* projectDef.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = projectDef.cmake; path = Mac/projectDef.cmake; sourceTree = SOURCE_ROOT; };
+		1118E10AC8D94423B82EA64A /* file.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file.cpp; sourceTree = SOURCE_ROOT; };
+		1CC2C3FF2F6840E2873A7C8B /* FBControl.htm.original */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = FBControl.htm.original; path = ../build/projects/SmartFiles/gen/FBControl.htm.original; sourceTree = SOURCE_ROOT; };
+		1E8BC100B54E48AF880DD62B /* Localized.rsrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = Localized.rsrc; path = ../build/projects/SmartFiles/bundle/English.lproj/Localized.rsrc; sourceTree = SOURCE_ROOT; };
+		229A227C3A9544F69457EA89 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = SOURCE_ROOT; };
+		2EE3CDCB531E4B90AF37D7B2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../build/projects/SmartFiles/bundle/Info.plist; sourceTree = SOURCE_ROOT; };
+		3DD98871865647A0BE20C268 /* axplugin_defs.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = axplugin_defs.inc; path = ../build/projects/SmartFiles/gen/global/axplugin_defs.inc; sourceTree = SOURCE_ROOT; };
+		4C2DF3057F6E4823BE0B18C9 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = SOURCE_ROOT; };
+		4EE42D400546432085B3E70E /* ExportList_plugin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ExportList_plugin.txt; path = ../build/projects/SmartFiles/gen/ExportList_plugin.txt; sourceTree = SOURCE_ROOT; };
+		58B12BAEC4E245508ADB3F8C /* FireBreathWin.idl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = FireBreathWin.idl; path = ../build/projects/SmartFiles/gen/FireBreathWin.idl; sourceTree = SOURCE_ROOT; };
+		5C76721FC9AD4712924A14B7 /* FireBreathWin.rgs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = FireBreathWin.rgs; path = ../build/projects/SmartFiles/gen/FireBreathWin.rgs; sourceTree = SOURCE_ROOT; };
+		622F9AFB5F0D42B09D57E666 /* launcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = launcher.h; sourceTree = SOURCE_ROOT; };
+		6550C9B731E6490199B37418 /* FBControl.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = FBControl.htm; path = ../build/projects/SmartFiles/gen/FBControl.htm; sourceTree = SOURCE_ROOT; };
+		6BBB39615F8D444B9EB57259 /* SmartFilesAPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmartFilesAPI.cpp; sourceTree = SOURCE_ROOT; };
+		6F886EC04BA7456982C22D1F /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = SOURCE_ROOT; };
+		79CC8C0322D241549620D6A5 /* smartfiles_ipc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = smartfiles_ipc.cpp; sourceTree = SOURCE_ROOT; };
+		8826E5DE1CD248549403A930 /* rcgen.sh.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = rcgen.sh.in; path = ../build/projects/SmartFiles/gen/rcgen.sh.in; sourceTree = SOURCE_ROOT; };
+		8F5E249D462C42F09180BED9 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = ../build/projects/SmartFiles/gen/README.txt; sourceTree = SOURCE_ROOT; };
+		944E478F68D8475484EEEAA3 /* firebreathWin.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = firebreathWin.rc; path = ../build/projects/SmartFiles/gen/firebreathWin.rc; sourceTree = SOURCE_ROOT; };
+		A6A87420BAD040C1A170ACC4 /* Localized.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = Localized.r; path = ../build/projects/SmartFiles/bundle/English.lproj/Localized.r; sourceTree = SOURCE_ROOT; };
+		A722D4C510614626B03E769C /* process.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = process.cpp; sourceTree = SOURCE_ROOT; };
+		AE4DFEF6628247C1A3E25104 /* smartfiles_ipc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smartfiles_ipc.h; sourceTree = SOURCE_ROOT; };
+		B23933C666434D8B9E62721E /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../build/projects/SmartFiles/gen/global/config.h; sourceTree = SOURCE_ROOT; };
+		C2F1417463E74A92A77431D3 /* path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = path.h; sourceTree = SOURCE_ROOT; };
+		C3906F598C3749CC8E35028F /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = InfoPlist.strings; path = ../build/projects/SmartFiles/bundle/English.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		C668E371CBAE4A0E866C2745 /* SmartFiles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmartFiles.cpp; sourceTree = SOURCE_ROOT; };
+		C7473DFE876B43FFAE77719F /* FireBreathWin.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = FireBreathWin.def; path = ../build/projects/SmartFiles/gen/FireBreathWin.def; sourceTree = SOURCE_ROOT; };
+		CACE93B08B7D4D238A8C8D03 /* PluginConfig.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; path = PluginConfig.cmake; sourceTree = SOURCE_ROOT; };
+		CFDB06B82EE24FC588FAA451 /* SmartFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartFiles.h; sourceTree = SOURCE_ROOT; };
+		D30781007AD54992BA6CDB83 /* version_script.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = version_script.txt; path = ../build/projects/SmartFiles/gen/version_script.txt; sourceTree = SOURCE_ROOT; };
+		D6235410C17C4E1EA749BB3E /* global */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = global; path = ../build/projects/SmartFiles/gen/global; sourceTree = SOURCE_ROOT; };
+		D95FEBCB6A6643588096E6D5 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D962D51DB2EF45479071BBAC /* COM_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COM_config.h; path = ../build/projects/SmartFiles/gen/global/COM_config.h; sourceTree = SOURCE_ROOT; };
+		D9818EA9A8B74DDE8AC4A4ED /* launcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = launcher.cpp; sourceTree = SOURCE_ROOT; };
+		E8D971587B034111A5318639 /* Factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Factory.cpp; sourceTree = SOURCE_ROOT; };
+		F490F0F5E3E1423790EFDE8E /* SmartFilesAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartFilesAPI.h; sourceTree = SOURCE_ROOT; };
+		FF57651D378C4422B48DC5BC /* FBControl.rgs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = FBControl.rgs; path = ../build/projects/SmartFiles/gen/FBControl.rgs; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A110EAA018F4ABC921A9C02 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		23D17C2748424CAA9311B305 = {
+			isa = PBXGroup;
+			children = (
+				540044CA40284EED966C301B /* Sources */,
+				F2151AE4506F4AF79FC7F610 /* Resources */,
+				88EED03B9F4548A995ABCBF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44A10A0B490C4D5D88168C6D /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				4EE42D400546432085B3E70E /* ExportList_plugin.txt */,
+				6550C9B731E6490199B37418 /* FBControl.htm */,
+				1CC2C3FF2F6840E2873A7C8B /* FBControl.htm.original */,
+				FF57651D378C4422B48DC5BC /* FBControl.rgs */,
+				C7473DFE876B43FFAE77719F /* FireBreathWin.def */,
+				58B12BAEC4E245508ADB3F8C /* FireBreathWin.idl */,
+				944E478F68D8475484EEEAA3 /* firebreathWin.rc */,
+				5C76721FC9AD4712924A14B7 /* FireBreathWin.rgs */,
+				D6235410C17C4E1EA749BB3E /* global */,
+				8826E5DE1CD248549403A930 /* rcgen.sh.in */,
+				8F5E249D462C42F09180BED9 /* README.txt */,
+				D30781007AD54992BA6CDB83 /* version_script.txt */,
+				003DCBEEF6A44EC397DC0ACC /* axplugin_defs.h */,
+				3DD98871865647A0BE20C268 /* axplugin_defs.inc */,
+				D962D51DB2EF45479071BBAC /* COM_config.h */,
+				B23933C666434D8B9E62721E /* config.h */,
+				0951C61FC6F743BFA58B4A58 /* resource.h */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		540044CA40284EED966C301B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C6B1323FEEB8411FAC935751 /* ALL_BUILD */,
+				EE05297326CD47FAAAD957FD /* SmartFiles */,
+				81D4E61831CC4A5A83B55833 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		54075978BE9244B982C8C960 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		71CA6F485C6E431DB3B13964 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				229A227C3A9544F69457EA89 /* constants.h */,
+				4C2DF3057F6E4823BE0B18C9 /* debug.h */,
+				6F886EC04BA7456982C22D1F /* file.h */,
+				622F9AFB5F0D42B09D57E666 /* launcher.h */,
+				C2F1417463E74A92A77431D3 /* path.h */,
+				0CE6EDE8124F4B84BC0D5C99 /* process.h */,
+				CFDB06B82EE24FC588FAA451 /* SmartFiles.h */,
+				AE4DFEF6628247C1A3E25104 /* smartfiles_ipc.h */,
+				F490F0F5E3E1423790EFDE8E /* SmartFilesAPI.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7329EA8002DA49F8BB027776 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				10F12999D50449D8B29F0871 /* projectDef.cmake */,
+			);
+			name = Mac;
+			sourceTree = "<group>";
+		};
+		81D4E61831CC4A5A83B55833 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				54075978BE9244B982C8C960 /* CMake Rules */,
+				D95FEBCB6A6643588096E6D5 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		88EED03B9F4548A995ABCBF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				089E4F49972D4C7BA9E2CA00 /* SmartFiles.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2587392F5D847D9BB179BEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2EE3CDCB531E4B90AF37D7B2 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C6B1323FEEB8411FAC935751 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1A110EAA018F4ABC921A9C02 /* CMake Rules */,
+				D95FEBCB6A6643588096E6D5 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		EE05297326CD47FAAAD957FD /* SmartFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EF643BB43F024AF2B6672FD5 /* Source Files */,
+				71CA6F485C6E431DB3B13964 /* Header Files */,
+				44A10A0B490C4D5D88168C6D /* Generated */,
+				7329EA8002DA49F8BB027776 /* Mac */,
+				B2587392F5D847D9BB179BEE /* Resources */,
+				CACE93B08B7D4D238A8C8D03 /* PluginConfig.cmake */,
+				C3906F598C3749CC8E35028F /* InfoPlist.strings */,
+				1E8BC100B54E48AF880DD62B /* Localized.rsrc */,
+				D95FEBCB6A6643588096E6D5 /* CMakeLists.txt */,
+			);
+			name = SmartFiles;
+			sourceTree = "<group>";
+		};
+		EF643BB43F024AF2B6672FD5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D971587B034111A5318639 /* Factory.cpp */,
+				1118E10AC8D94423B82EA64A /* file.cpp */,
+				D9818EA9A8B74DDE8AC4A4ED /* launcher.cpp */,
+				107F803FC270470C8580508A /* path.cpp */,
+				A722D4C510614626B03E769C /* process.cpp */,
+				C668E371CBAE4A0E866C2745 /* SmartFiles.cpp */,
+				79CC8C0322D241549620D6A5 /* smartfiles_ipc.cpp */,
+				6BBB39615F8D444B9EB57259 /* SmartFilesAPI.cpp */,
+				A6A87420BAD040C1A170ACC4 /* Localized.r */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F2151AE4506F4AF79FC7F610 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32C79C3A4AD44D0C904E19C4 /* SmartFiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C5259C0FDF47639BCBFA8A /* Build configuration list for PBXNativeTarget "SmartFiles" */;
+			buildPhases = (
+				8211E5FDFB564F9B8AFD3AD9 /* CopyFiles */,
+				4E7E812ADB9B44D28334BFF3 /* Sources */,
+				EE39C723760F425EB50F3F57 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D90C6841A2498EA67C3758 /* PBXTargetDependency */,
+			);
+			name = SmartFiles;
+			productName = SmartFiles;
+			productReference = 089E4F49972D4C7BA9E2CA00 /* SmartFiles.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		201991793021428D98EFA245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = FC5A190BED2F4B51A5159F79 /* Build configuration list for PBXProject "SmartFiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 23D17C2748424CAA9311B305;
+			projectDirPath = ../../../SmartFiles;
+			projectRoot = "";
+			targets = (
+				129E1D4DF5634B47BF700E07 /* ALL_BUILD */,
+				32C79C3A4AD44D0C904E19C4 /* SmartFiles */,
+				99C6E6FD3BD448B3B5947D32 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		790E9B36AE4240B894E87DED /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles -f /Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BFEEAD57B8504EBB8D9E98BB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles -f /Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		EE39C723760F425EB50F3F57 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles -f /Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/CMakeScripts/SmartFiles_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E7E812ADB9B44D28334BFF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE30F4FE86D4748A5B73212 /* Factory.cpp in Sources */,
+				9FF8BA4C155A443EB1E4B948 /* file.cpp in Sources */,
+				1DAA60DB2B1E453281A3FDF4 /* launcher.cpp in Sources */,
+				66F444CF777B4946B5BFB67E /* path.cpp in Sources */,
+				5C997A4A7D8C4F9199DA48C4 /* process.cpp in Sources */,
+				04AD535D5847459E812DEBBD /* SmartFiles.cpp in Sources */,
+				DB2A74CE28F3488A91C09964 /* smartfiles_ipc.cpp in Sources */,
+				AE79F49E34694C678408C907 /* SmartFilesAPI.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6D90C6841A2498EA67C3758 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C6E6FD3BD448B3B5947D32 /* ZERO_CHECK */;
+			targetProxy = B45791F8EFDF45B08EA2D0A0 /* PBXContainerItemProxy */;
+		};
+		E4F83B7DB1674B16B2C8E782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C79C3A4AD44D0C904E19C4 /* SmartFiles */;
+			targetProxy = BC7D7D41F7254B33BF42753D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		179769B8EA604BA9BB1BC55F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XP_MACOSX=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/afisk/code/firebreath-1.6",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/gecko-sdk/includes",
+					"/Users/afisk/code/firebreath-1.6/src/NpapiCore",
+					"/Users/afisk/code/firebreath-1.6/src/ActiveXCore",
+					"/Users/afisk/code/firebreath-1.6/src/ScriptingCore",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto/Mac",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto",
+					"/Users/afisk/code/firebreath-1.6/src/PluginCore",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/gen",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/boost",
+					"/Users/afisk/code/firebreath-1.6/src/config",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		18E74DADE7C64CCCA9099CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.6.sdk;
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/build";
+			};
+			name = Release;
+		};
+		20182EEAF5CF4F3FBD93D152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SmartFiles_EXPORTS,
+					"'XP_MACOSX=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/afisk/code/firebreath-1.6",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/gecko-sdk/includes",
+					"/Users/afisk/code/firebreath-1.6/src/NpapiCore",
+					"/Users/afisk/code/firebreath-1.6/src/ActiveXCore",
+					"/Users/afisk/code/firebreath-1.6/src/ScriptingCore",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto/Mac",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto",
+					"/Users/afisk/code/firebreath-1.6/src/PluginCore",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/gen",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/boost",
+					"/Users/afisk/code/firebreath-1.6/src/config",
+				);
+				INFOPLIST_FILE = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/bundle/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DFB_MACOSX=1",
+					"-DXP_UNIX",
+					"-DXP_MACOSX",
+					"-DBOOST_ALL_NO_LIB=1",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DFB_MACOSX=1",
+					"-DXP_UNIX",
+					"-DXP_MACOSX",
+					"-DBOOST_ALL_NO_LIB=1",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-exported_symbols_list,/Users/afisk/code/firebreath-1.6/gen_templates/ExportList_plugin.txt",
+					"-bundle",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Foundation,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					Cocoa,
+					"/Users/afisk/code/firebreath-1.6/projects/build/PluginCore/Debug/libPluginCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/PluginAuto/Debug/libSFI_PluginAuto.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/NpapiCore/Debug/libNpapiCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore/Debug/libScriptingCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/PluginCore/Debug/libPluginCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/thread/Debug/libboost_thread.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/system/Debug/libboost_system.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/filesystem/Debug/libboost_filesystem.a",
+					"-ldl",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = SmartFiles;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		369049803642431393055F55 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XP_MACOSX=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/afisk/code/firebreath-1.6",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/gecko-sdk/includes",
+					"/Users/afisk/code/firebreath-1.6/src/NpapiCore",
+					"/Users/afisk/code/firebreath-1.6/src/ActiveXCore",
+					"/Users/afisk/code/firebreath-1.6/src/ScriptingCore",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto/Mac",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto",
+					"/Users/afisk/code/firebreath-1.6/src/PluginCore",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/gen",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/boost",
+					"/Users/afisk/code/firebreath-1.6/src/config",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		41B9500DF68B4BA1BFB17C3E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.6.sdk;
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/build";
+			};
+			name = RelWithDebInfo;
+		};
+		4392B42A9EA2499AACAE5602 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.6.sdk;
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/build";
+			};
+			name = MinSizeRel;
+		};
+		63764EADDEE441FFBB9F77D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XP_MACOSX=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/afisk/code/firebreath-1.6",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/gecko-sdk/includes",
+					"/Users/afisk/code/firebreath-1.6/src/NpapiCore",
+					"/Users/afisk/code/firebreath-1.6/src/ActiveXCore",
+					"/Users/afisk/code/firebreath-1.6/src/ScriptingCore",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto/Mac",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto",
+					"/Users/afisk/code/firebreath-1.6/src/PluginCore",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/gen",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/boost",
+					"/Users/afisk/code/firebreath-1.6/src/config",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		77450226176F44728F51D406 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XP_MACOSX=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/afisk/code/firebreath-1.6",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/gecko-sdk/includes",
+					"/Users/afisk/code/firebreath-1.6/src/NpapiCore",
+					"/Users/afisk/code/firebreath-1.6/src/ActiveXCore",
+					"/Users/afisk/code/firebreath-1.6/src/ScriptingCore",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto/Mac",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto",
+					"/Users/afisk/code/firebreath-1.6/src/PluginCore",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/gen",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/boost",
+					"/Users/afisk/code/firebreath-1.6/src/config",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		7B96F050C7EE4553A331E71B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SmartFiles_EXPORTS,
+					"'XP_MACOSX=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/afisk/code/firebreath-1.6",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/gecko-sdk/includes",
+					"/Users/afisk/code/firebreath-1.6/src/NpapiCore",
+					"/Users/afisk/code/firebreath-1.6/src/ActiveXCore",
+					"/Users/afisk/code/firebreath-1.6/src/ScriptingCore",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto/Mac",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto",
+					"/Users/afisk/code/firebreath-1.6/src/PluginCore",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/gen",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/boost",
+					"/Users/afisk/code/firebreath-1.6/src/config",
+				);
+				INFOPLIST_FILE = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/bundle/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DFB_MACOSX=1",
+					"-DXP_UNIX",
+					"-DXP_MACOSX",
+					"-DBOOST_ALL_NO_LIB=1",
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DFB_MACOSX=1",
+					"-DXP_UNIX",
+					"-DXP_MACOSX",
+					"-DBOOST_ALL_NO_LIB=1",
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-exported_symbols_list,/Users/afisk/code/firebreath-1.6/gen_templates/ExportList_plugin.txt",
+					"-bundle",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Foundation,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					Cocoa,
+					"/Users/afisk/code/firebreath-1.6/projects/build/PluginCore/RelWithDebInfo/libPluginCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/PluginAuto/RelWithDebInfo/libSFI_PluginAuto.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/NpapiCore/RelWithDebInfo/libNpapiCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore/RelWithDebInfo/libScriptingCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/PluginCore/RelWithDebInfo/libPluginCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/thread/RelWithDebInfo/libboost_thread.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/system/RelWithDebInfo/libboost_system.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/filesystem/RelWithDebInfo/libboost_filesystem.a",
+					"-ldl",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = SmartFiles;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = RelWithDebInfo;
+		};
+		8AA05BA9D531493FA930CD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SmartFiles_EXPORTS,
+					"'XP_MACOSX=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/afisk/code/firebreath-1.6",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/gecko-sdk/includes",
+					"/Users/afisk/code/firebreath-1.6/src/NpapiCore",
+					"/Users/afisk/code/firebreath-1.6/src/ActiveXCore",
+					"/Users/afisk/code/firebreath-1.6/src/ScriptingCore",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto/Mac",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto",
+					"/Users/afisk/code/firebreath-1.6/src/PluginCore",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/gen",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/boost",
+					"/Users/afisk/code/firebreath-1.6/src/config",
+				);
+				INFOPLIST_FILE = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/bundle/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DFB_MACOSX=1",
+					"-DXP_UNIX",
+					"-DXP_MACOSX",
+					"-DBOOST_ALL_NO_LIB=1",
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DFB_MACOSX=1",
+					"-DXP_UNIX",
+					"-DXP_MACOSX",
+					"-DBOOST_ALL_NO_LIB=1",
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-exported_symbols_list,/Users/afisk/code/firebreath-1.6/gen_templates/ExportList_plugin.txt",
+					"-bundle",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Foundation,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					Cocoa,
+					"/Users/afisk/code/firebreath-1.6/projects/build/PluginCore/Release/libPluginCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/PluginAuto/Release/libSFI_PluginAuto.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/NpapiCore/Release/libNpapiCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore/Release/libScriptingCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/PluginCore/Release/libPluginCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/thread/Release/libboost_thread.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/system/Release/libboost_system.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/filesystem/Release/libboost_filesystem.a",
+					"-ldl",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = SmartFiles;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		912C5E2193124A319021F3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XP_MACOSX=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/afisk/code/firebreath-1.6",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/gecko-sdk/includes",
+					"/Users/afisk/code/firebreath-1.6/src/NpapiCore",
+					"/Users/afisk/code/firebreath-1.6/src/ActiveXCore",
+					"/Users/afisk/code/firebreath-1.6/src/ScriptingCore",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto/Mac",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto",
+					"/Users/afisk/code/firebreath-1.6/src/PluginCore",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/gen",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/boost",
+					"/Users/afisk/code/firebreath-1.6/src/config",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		96B52EC5E47D4F53825F772D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SmartFiles_EXPORTS,
+					"'XP_MACOSX=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/afisk/code/firebreath-1.6",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/gecko-sdk/includes",
+					"/Users/afisk/code/firebreath-1.6/src/NpapiCore",
+					"/Users/afisk/code/firebreath-1.6/src/ActiveXCore",
+					"/Users/afisk/code/firebreath-1.6/src/ScriptingCore",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto/Mac",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto",
+					"/Users/afisk/code/firebreath-1.6/src/PluginCore",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/gen",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/boost",
+					"/Users/afisk/code/firebreath-1.6/src/config",
+				);
+				INFOPLIST_FILE = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/bundle/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DFB_MACOSX=1",
+					"-DXP_UNIX",
+					"-DXP_MACOSX",
+					"-DBOOST_ALL_NO_LIB=1",
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DFB_MACOSX=1",
+					"-DXP_UNIX",
+					"-DXP_MACOSX",
+					"-DBOOST_ALL_NO_LIB=1",
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-exported_symbols_list,/Users/afisk/code/firebreath-1.6/gen_templates/ExportList_plugin.txt",
+					"-bundle",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Foundation,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					Cocoa,
+					"/Users/afisk/code/firebreath-1.6/projects/build/PluginCore/MinSizeRel/libPluginCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/PluginAuto/MinSizeRel/libSFI_PluginAuto.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/NpapiCore/MinSizeRel/libNpapiCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore/MinSizeRel/libScriptingCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/PluginCore/MinSizeRel/libPluginCore.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/thread/MinSizeRel/libboost_thread.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/system/MinSizeRel/libboost_system.a",
+					"/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/filesystem/MinSizeRel/libboost_filesystem.a",
+					"-ldl",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = SmartFiles;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = MinSizeRel;
+		};
+		97531333D1834E1EBF0C499E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XP_MACOSX=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/afisk/code/firebreath-1.6",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/gecko-sdk/includes",
+					"/Users/afisk/code/firebreath-1.6/src/NpapiCore",
+					"/Users/afisk/code/firebreath-1.6/src/ActiveXCore",
+					"/Users/afisk/code/firebreath-1.6/src/ScriptingCore",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto/Mac",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto",
+					"/Users/afisk/code/firebreath-1.6/src/PluginCore",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/gen",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/boost",
+					"/Users/afisk/code/firebreath-1.6/src/config",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		9EF4776CBC4348E3BB185280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.6.sdk;
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/build";
+			};
+			name = Debug;
+		};
+		B235D8AD33434F08807F52D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XP_MACOSX=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/afisk/code/firebreath-1.6",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/gecko-sdk/includes",
+					"/Users/afisk/code/firebreath-1.6/src/NpapiCore",
+					"/Users/afisk/code/firebreath-1.6/src/ActiveXCore",
+					"/Users/afisk/code/firebreath-1.6/src/ScriptingCore",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto/Mac",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto",
+					"/Users/afisk/code/firebreath-1.6/src/PluginCore",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/gen",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/boost",
+					"/Users/afisk/code/firebreath-1.6/src/config",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		FCF90460AAE0440B8BFC7B2C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XP_MACOSX=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/afisk/code/firebreath-1.6",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/gecko-sdk/includes",
+					"/Users/afisk/code/firebreath-1.6/src/NpapiCore",
+					"/Users/afisk/code/firebreath-1.6/src/ActiveXCore",
+					"/Users/afisk/code/firebreath-1.6/src/ScriptingCore",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto/Mac",
+					"/Users/afisk/code/firebreath-1.6/src/PluginAuto",
+					"/Users/afisk/code/firebreath-1.6/src/PluginCore",
+					"/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/gen",
+					"/Users/afisk/code/firebreath-1.6/src/3rdParty/boost",
+					"/Users/afisk/code/firebreath-1.6/src/config",
+				);
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51C5259C0FDF47639BCBFA8A /* Build configuration list for PBXNativeTarget "SmartFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20182EEAF5CF4F3FBD93D152 /* Debug */,
+				8AA05BA9D531493FA930CD13 /* Release */,
+				96B52EC5E47D4F53825F772D /* MinSizeRel */,
+				7B96F050C7EE4553A331E71B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D90639CDC1AC43BA8E54F87B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912C5E2193124A319021F3D9 /* Debug */,
+				B235D8AD33434F08807F52D2 /* Release */,
+				77450226176F44728F51D406 /* MinSizeRel */,
+				FCF90460AAE0440B8BFC7B2C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F87AE96093D74F4895D247F9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63764EADDEE441FFBB9F77D3 /* Debug */,
+				97531333D1834E1EBF0C499E /* Release */,
+				369049803642431393055F55 /* MinSizeRel */,
+				179769B8EA604BA9BB1BC55F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FC5A190BED2F4B51A5159F79 /* Build configuration list for PBXProject "SmartFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EF4776CBC4348E3BB185280 /* Debug */,
+				18E74DADE7C64CCCA9099CE0 /* Release */,
+				4392B42A9EA2499AACAE5602 /* MinSizeRel */,
+				41B9500DF68B4BA1BFB17C3E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 201991793021428D98EFA245 /* Project object */;
+}

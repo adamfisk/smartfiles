@@ -1,0 +1,151 @@
+// !$*UTF8*$!
+{
+	129E1D4DF5634B47BF700E07 /* ALL_BUILD */ = {
+		activeExec = 0;
+	};
+	1330EBA08CB440B995F8EC04 /* FireBreath_Cmake */ = {
+		activeExec = 0;
+	};
+	1CEAFBCB44214A9884B6F4B2 /* boost_thread */ = {
+		activeExec = 0;
+	};
+	295136E7153264A40049CBE9 /* UnitTest_ScriptingCore */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = UnitTest_ScriptingCore;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	295136F1153264C30049CBE9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	295136F2153264C30049CBE9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	295136FB1533D3560049CBE9 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "No matching function for call to 'SmartFilesAPI::fire_echo(const char [23])'";
+		fRef = BDE632A5E75945C492B40D65 /* SmartFilesAPI.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 16;
+		rType = 1;
+	};
+	295136FC1533D3560049CBE9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDE632A5E75945C492B40D65 /* SmartFilesAPI.cpp */;
+		name = "SmartFilesAPI.cpp: 17";
+		rLen = 0;
+		rLoc = 352;
+		rType = 0;
+		vrLen = 421;
+		vrLoc = 0;
+	};
+	32C79C3A4AD44D0C904E19C4 /* SmartFiles */ = {
+		activeExec = 0;
+	};
+	33AF129C6BFD49FC9AA3D545 /* PluginCore */ = {
+		activeExec = 0;
+	};
+	39C856DB22F0481982E92CE8 /* SFI_PluginAuto */ = {
+		activeExec = 0;
+	};
+	51093A96489B4CB48D104524 /* NpapiCore */ = {
+		activeExec = 0;
+	};
+	7B21FE4E702E41C7B2C43DAC /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 295136E7153264A40049CBE9 /* UnitTest_ScriptingCore */;
+		activeTarget = 129E1D4DF5634B47BF700E07 /* ALL_BUILD */;
+		codeSenseManager = 295136F2153264C30049CBE9 /* Code sense */;
+		executables = (
+			295136E7153264A40049CBE9 /* UnitTest_ScriptingCore */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 355624100;
+			PBXWorkspaceStateSaveDate = 355624100;
+		};
+		perUserProjectItems = {
+			295136FB1533D3560049CBE9 /* XCBuildMessageTextBookmark */ = 295136FB1533D3560049CBE9 /* XCBuildMessageTextBookmark */;
+			295136FC1533D3560049CBE9 /* PBXTextBookmark */ = 295136FC1533D3560049CBE9 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 295136F1153264C30049CBE9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	99C6E6FD3BD448B3B5947D32 /* ZERO_CHECK */ = {
+		activeExec = 0;
+	};
+	BDE632A5E75945C492B40D65 /* SmartFilesAPI.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1258, 988}}";
+			sepNavSelRange = "{904, 0}";
+			sepNavVisRange = "{208, 1358}";
+		};
+	};
+	BFC211C5298448FFB0AB43C9 /* ScriptingCore */ = {
+		activeExec = 0;
+	};
+	F936B77AEA874CDC96B8FDC0 /* UnitTest++ */ = {
+		activeExec = 0;
+	};
+	FB278BE5D2BA4FFF98281BF7 /* boost_system */ = {
+		activeExec = 0;
+	};
+	FD70EC55B2AB4D8995E87E9C /* UnitTest_ScriptingCore */ = {
+		activeExec = 0;
+		executables = (
+			295136E7153264A40049CBE9 /* UnitTest_ScriptingCore */,
+		);
+	};
+}

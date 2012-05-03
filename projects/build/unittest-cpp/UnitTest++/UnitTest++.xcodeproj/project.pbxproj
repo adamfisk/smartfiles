@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              129E1D4DF5634B47BF700E07 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 072E9ECEDCB14D6D88B5C782 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            EB9767AD07934F748CAE3217 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            B04B923E1FE143809F9A7BFA /* PBXTargetDependency */,
+                            CEE4416E3EBC40EE8C795216 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              99C6E6FD3BD448B3B5947D32 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = B0E8E90605BC42BDB25DED51 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            247654C83307454683C6A9AE /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+36FB8F6D875E44B18623788A /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/AssertException.cpp */ = {isa = PBXBuildFile; fileRef = 4DD77BB6F24C43E19C042977 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/AssertException.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+E532057F8988484E91B276B5 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Test.cpp */ = {isa = PBXBuildFile; fileRef = 208929D5A51740669428E9FE /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Test.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+D887E4ADFFFF4C21BD1C9774 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Checks.cpp */ = {isa = PBXBuildFile; fileRef = 36014BE7D9F84B049B2A3467 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Checks.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+EAB3D7C091B649929DACD6EE /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestRunner.cpp */ = {isa = PBXBuildFile; fileRef = E3B496F4134944528CDA7A72 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestRunner.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+33A2112C39854D17B2A970CF /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestResults.cpp */ = {isa = PBXBuildFile; fileRef = D9386F64F1CA4F8CB4376B6B /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestResults.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+40FDA977B027459CA8C2EB79 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestReporter.cpp */ = {isa = PBXBuildFile; fileRef = BD6A29901ABD44DFB9C1520F /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestReporter.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+C0EDB35587E04E5FAF01AC6D /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestReporterStdout.cpp */ = {isa = PBXBuildFile; fileRef = 19F5517B58FD4FF487600266 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestReporterStdout.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+A669DFCFFEB644FFBD190458 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/ReportAssert.cpp */ = {isa = PBXBuildFile; fileRef = 4F99038305774F00881148FC /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/ReportAssert.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+41C79D25C5314879B6023D84 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestList.cpp */ = {isa = PBXBuildFile; fileRef = 6FD06789564A4B45AC65DA96 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestList.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+928DF430A7EB4E7B9BD8B39F /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TimeConstraint.cpp */ = {isa = PBXBuildFile; fileRef = 889549E95E974DD39E5745C0 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TimeConstraint.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+CE1BE1DA264241DF8A98243D /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestDetails.cpp */ = {isa = PBXBuildFile; fileRef = 8E7EA0227E3442F2B385581D /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestDetails.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+FFB33C51C8B6492BB3BA8573 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/MemoryOutStream.cpp */ = {isa = PBXBuildFile; fileRef = 0B029559EE204F349A12639E /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/MemoryOutStream.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+1C62064794A34409ACB4E3DF /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/DeferredTestReporter.cpp */ = {isa = PBXBuildFile; fileRef = 8A308E76758D4B39AF65F269 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/DeferredTestReporter.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+D6AD10F999384FFA917537F2 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/DeferredTestResult.cpp */ = {isa = PBXBuildFile; fileRef = D9962CF35CC84208BE50C16D /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/DeferredTestResult.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+AD4DB185B5424AA8A82E9A0D /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/XmlTestReporter.cpp */ = {isa = PBXBuildFile; fileRef = CB8C9B12955245C5B5436642 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/XmlTestReporter.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+06EC7A21F76D46B2B00EE365 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/CurrentTest.cpp */ = {isa = PBXBuildFile; fileRef = 9CF4D28B38EA4F929007495F /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/CurrentTest.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+2E155CB33E094F26B074BA30 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Posix/SignalTranslator.cpp */ = {isa = PBXBuildFile; fileRef = BEA6DFB8616B4EA4B05A11BA /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Posix/SignalTranslator.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+2149A8A8B0CC4059823B1267 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Posix/TimeHelpers.cpp */ = {isa = PBXBuildFile; fileRef = 04C7BC0C28604A8390C1C3F8 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Posix/TimeHelpers.cpp */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+7F45190886B0490DA6EEEBEC /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5CB158E176D1407A98CB1448 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/CMakeLists.txt */; settings = { COMPILER_FLAGS = "-g -Wall -W -ansi"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              509805C6C089464184CDF3CE /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              60B74AE2CC3D452C8411B538 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              EA7E69A6F75944359F12FAFD /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              6878969D419E485A8DDF5B50 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              C215C675D39F4D3EACF6A3A2 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              EF49B450FC0B4143B3F60AC0 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = A65D85E2CE9A4086A33F6639 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = F936B77AEA874CDC96B8FDC0;
+                     remoteInfo = "UnitTest++";
+              };
+              8E219420A9CF41C7A2AB921E /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = A65D85E2CE9A4086A33F6639 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 99C6E6FD3BD448B3B5947D32;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+5CB158E176D1407A98CB1448 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+4DD77BB6F24C43E19C042977 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/AssertException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "AssertException.cpp"; path = "src/AssertException.cpp"; sourceTree = SOURCE_ROOT; };
+208929D5A51740669428E9FE /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "Test.cpp"; path = "src/Test.cpp"; sourceTree = SOURCE_ROOT; };
+36014BE7D9F84B049B2A3467 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Checks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "Checks.cpp"; path = "src/Checks.cpp"; sourceTree = SOURCE_ROOT; };
+E3B496F4134944528CDA7A72 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "TestRunner.cpp"; path = "src/TestRunner.cpp"; sourceTree = SOURCE_ROOT; };
+D9386F64F1CA4F8CB4376B6B /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestResults.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "TestResults.cpp"; path = "src/TestResults.cpp"; sourceTree = SOURCE_ROOT; };
+BD6A29901ABD44DFB9C1520F /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestReporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "TestReporter.cpp"; path = "src/TestReporter.cpp"; sourceTree = SOURCE_ROOT; };
+19F5517B58FD4FF487600266 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestReporterStdout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "TestReporterStdout.cpp"; path = "src/TestReporterStdout.cpp"; sourceTree = SOURCE_ROOT; };
+4F99038305774F00881148FC /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/ReportAssert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "ReportAssert.cpp"; path = "src/ReportAssert.cpp"; sourceTree = SOURCE_ROOT; };
+6FD06789564A4B45AC65DA96 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "TestList.cpp"; path = "src/TestList.cpp"; sourceTree = SOURCE_ROOT; };
+889549E95E974DD39E5745C0 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TimeConstraint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "TimeConstraint.cpp"; path = "src/TimeConstraint.cpp"; sourceTree = SOURCE_ROOT; };
+8E7EA0227E3442F2B385581D /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestDetails.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "TestDetails.cpp"; path = "src/TestDetails.cpp"; sourceTree = SOURCE_ROOT; };
+0B029559EE204F349A12639E /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/MemoryOutStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "MemoryOutStream.cpp"; path = "src/MemoryOutStream.cpp"; sourceTree = SOURCE_ROOT; };
+8A308E76758D4B39AF65F269 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/DeferredTestReporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "DeferredTestReporter.cpp"; path = "src/DeferredTestReporter.cpp"; sourceTree = SOURCE_ROOT; };
+D9962CF35CC84208BE50C16D /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/DeferredTestResult.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "DeferredTestResult.cpp"; path = "src/DeferredTestResult.cpp"; sourceTree = SOURCE_ROOT; };
+CB8C9B12955245C5B5436642 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/XmlTestReporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "XmlTestReporter.cpp"; path = "src/XmlTestReporter.cpp"; sourceTree = SOURCE_ROOT; };
+9CF4D28B38EA4F929007495F /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/CurrentTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "CurrentTest.cpp"; path = "src/CurrentTest.cpp"; sourceTree = SOURCE_ROOT; };
+BEA6DFB8616B4EA4B05A11BA /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Posix/SignalTranslator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "SignalTranslator.cpp"; path = "src/Posix/SignalTranslator.cpp"; sourceTree = SOURCE_ROOT; };
+04C7BC0C28604A8390C1C3F8 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Posix/TimeHelpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "TimeHelpers.cpp"; path = "src/Posix/TimeHelpers.cpp"; sourceTree = SOURCE_ROOT; };
+1BF532F58A6344BCA6A48331 /* UnitTest++ */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libUnitTest++.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              8ACC6C8A10154E8BAA3CFDF9  = {
+                     isa = PBXGroup;
+                     children = (
+                            DAD20F78205C46229DD4E5D8 /* Sources */,
+                            48E62214F5C847D89A85B8A7 /* Resources */,
+                            02F8F1ACA31E43BD940B3E9B /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              DAD20F78205C46229DD4E5D8 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9DC72480E2BC47059E93BC8D /* ALL_BUILD */,
+                            02A2234A4D78457F95436D79 /* UnitTests */,
+                            C4530F9888204A35B594A2AE /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              48E62214F5C847D89A85B8A7 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              9DC72480E2BC47059E93BC8D /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            CF4EB236646A40CEA97D9461 /* CMake Rules */,
+                            5CB158E176D1407A98CB1448 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              CF4EB236646A40CEA97D9461 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              02A2234A4D78457F95436D79 /* UnitTests */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FFBB89245D304B7FBCE671FC /* UnitTest++ */,
+                     );
+                     name = UnitTests;
+                     sourceTree = "<group>";
+              };
+              FFBB89245D304B7FBCE671FC /* UnitTest++ */ = {
+                     isa = PBXGroup;
+                     children = (
+                            CAE8CA3EA3DA467D88C4F2FF /* Source Files */,
+                            5CB158E176D1407A98CB1448 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/CMakeLists.txt */,
+                     );
+                     name = "UnitTest++";
+                     sourceTree = "<group>";
+              };
+              CAE8CA3EA3DA467D88C4F2FF /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4DD77BB6F24C43E19C042977 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/AssertException.cpp */,
+                            208929D5A51740669428E9FE /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Test.cpp */,
+                            36014BE7D9F84B049B2A3467 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Checks.cpp */,
+                            E3B496F4134944528CDA7A72 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestRunner.cpp */,
+                            D9386F64F1CA4F8CB4376B6B /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestResults.cpp */,
+                            BD6A29901ABD44DFB9C1520F /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestReporter.cpp */,
+                            19F5517B58FD4FF487600266 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestReporterStdout.cpp */,
+                            4F99038305774F00881148FC /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/ReportAssert.cpp */,
+                            6FD06789564A4B45AC65DA96 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestList.cpp */,
+                            889549E95E974DD39E5745C0 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TimeConstraint.cpp */,
+                            8E7EA0227E3442F2B385581D /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestDetails.cpp */,
+                            0B029559EE204F349A12639E /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/MemoryOutStream.cpp */,
+                            8A308E76758D4B39AF65F269 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/DeferredTestReporter.cpp */,
+                            D9962CF35CC84208BE50C16D /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/DeferredTestResult.cpp */,
+                            CB8C9B12955245C5B5436642 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/XmlTestReporter.cpp */,
+                            9CF4D28B38EA4F929007495F /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/CurrentTest.cpp */,
+                            BEA6DFB8616B4EA4B05A11BA /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Posix/SignalTranslator.cpp */,
+                            04C7BC0C28604A8390C1C3F8 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Posix/TimeHelpers.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              C4530F9888204A35B594A2AE /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            695B4F0247EB40F18BB9AA99 /* CMake Rules */,
+                            5CB158E176D1407A98CB1448 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              695B4F0247EB40F18BB9AA99 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              02F8F1ACA31E43BD940B3E9B /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1BF532F58A6344BCA6A48331 /* UnitTest++ */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              F936B77AEA874CDC96B8FDC0 /* UnitTest++ */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = FC03D4E6839F44C28C08F761 /* Build configuration list for PBXNativeTarget "UnitTest++" */;
+                     buildPhases = (
+                            AECC97F913B44C6EB6AF2F20 /* Sources */,
+                            C23B48553C524477AE1AB9C2 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            CEE4416E3EBC40EE8C795216 /* PBXTargetDependency */,
+                     );
+                     name = "UnitTest++";
+                     productName = "UnitTest++";
+                     productReference = 1BF532F58A6344BCA6A48331 /* UnitTest++ */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              A65D85E2CE9A4086A33F6639 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = DAB4D797E1E04FA6AFFB6013 /* Build configuration list for PBXProject  "UnitTest++" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            60B74AE2CC3D452C8411B538 /* Debug */,
+                            EA7E69A6F75944359F12FAFD /* Release */,
+                            6878969D419E485A8DDF5B50 /* MinSizeRel */,
+                            C215C675D39F4D3EACF6A3A2 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 8ACC6C8A10154E8BAA3CFDF9;
+                     projectDirPath = "../../../../tests/unittest-cpp/UnitTest++";
+                     projectRoot = "";
+                     targets = (
+                            129E1D4DF5634B47BF700E07 /* ALL_BUILD */,
+                            F936B77AEA874CDC96B8FDC0 /* UnitTest++ */,
+                            99C6E6FD3BD448B3B5947D32 /* ZERO_CHECK */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              AB1E11C5058D44C281E05BB4 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              EB9767AD07934F748CAE3217 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++ -f /Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              C23B48553C524477AE1AB9C2 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++ -f /Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++/CMakeScripts/UnitTest++_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              9A76D7A44E834CEA9EAD76CF /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              247654C83307454683C6A9AE /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++ -f /Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              AECC97F913B44C6EB6AF2F20 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            36FB8F6D875E44B18623788A /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/AssertException.cpp */,
+                            E532057F8988484E91B276B5 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Test.cpp */,
+                            D887E4ADFFFF4C21BD1C9774 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Checks.cpp */,
+                            EAB3D7C091B649929DACD6EE /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestRunner.cpp */,
+                            33A2112C39854D17B2A970CF /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestResults.cpp */,
+                            40FDA977B027459CA8C2EB79 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestReporter.cpp */,
+                            C0EDB35587E04E5FAF01AC6D /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestReporterStdout.cpp */,
+                            A669DFCFFEB644FFBD190458 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/ReportAssert.cpp */,
+                            41C79D25C5314879B6023D84 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestList.cpp */,
+                            928DF430A7EB4E7B9BD8B39F /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TimeConstraint.cpp */,
+                            CE1BE1DA264241DF8A98243D /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/TestDetails.cpp */,
+                            FFB33C51C8B6492BB3BA8573 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/MemoryOutStream.cpp */,
+                            1C62064794A34409ACB4E3DF /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/DeferredTestReporter.cpp */,
+                            D6AD10F999384FFA917537F2 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/DeferredTestResult.cpp */,
+                            AD4DB185B5424AA8A82E9A0D /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/XmlTestReporter.cpp */,
+                            06EC7A21F76D46B2B00EE365 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/CurrentTest.cpp */,
+                            2E155CB33E094F26B074BA30 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Posix/SignalTranslator.cpp */,
+                            2149A8A8B0CC4059823B1267 /* /Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src/Posix/TimeHelpers.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              B04B923E1FE143809F9A7BFA /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = F936B77AEA874CDC96B8FDC0 /* UnitTest++ */;
+                     targetProxy = EF49B450FC0B4143B3F60AC0 /* PBXContainerItemProxy */;
+              };
+              CEE4416E3EBC40EE8C795216 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 99C6E6FD3BD448B3B5947D32 /* ZERO_CHECK */;
+                     targetProxy = 8E219420A9CF41C7A2AB921E /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              85EC0573CB214797A712CDC4 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "i386 x86_64";
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++/build";
+                     };
+                     name = Debug;
+              };
+              99C5BB6B61FA4D9FA32D3CAC /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "i386 x86_64";
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++/build";
+                     };
+                     name = Release;
+              };
+              C33CB1BA176149C8B6C907B0 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "i386 x86_64";
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++/build";
+                     };
+                     name = MinSizeRel;
+              };
+              B2569F4845034B86944412B1 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "i386 x86_64";
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              1459CF86001246B5BC090643 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _CRT_SECURE_NO_DEPRECATE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              7C77802CBF864E48BAF1E761 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _CRT_SECURE_NO_DEPRECATE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              2E5BA61748154254B773E0FC /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _CRT_SECURE_NO_DEPRECATE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              8A34A347FFA94E8E813AE5E5 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _CRT_SECURE_NO_DEPRECATE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              B545BDF191CC48478563E798 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _CRT_SECURE_NO_DEPRECATE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1     ";
+                            OTHER_CPLUSPLUSFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1     ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = "UnitTest++";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              484CFF8934E84EDAA74EFD70 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _CRT_SECURE_NO_DEPRECATE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = "UnitTest++";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              DAE9B2CA52DE40508EC4B5B8 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _CRT_SECURE_NO_DEPRECATE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = "UnitTest++";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              B5CA3710428F42069692C687 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _CRT_SECURE_NO_DEPRECATE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1        -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1        -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = "UnitTest++";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              067FB9649A564370B69D6159 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _CRT_SECURE_NO_DEPRECATE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              97647CA889304D5883A0BF0B /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _CRT_SECURE_NO_DEPRECATE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              76247A4A6A2242FBAD698300 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _CRT_SECURE_NO_DEPRECATE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              0144E4ECE55443D49E0FACEE /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _CRT_SECURE_NO_DEPRECATE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/tests/unittest-cpp/UnitTest++/src", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              DAB4D797E1E04FA6AFFB6013 /* Build configuration list for PBXProject  "UnitTest++" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            85EC0573CB214797A712CDC4 /* Debug */,
+                            99C5BB6B61FA4D9FA32D3CAC /* Release */,
+                            C33CB1BA176149C8B6C907B0 /* MinSizeRel */,
+                            B2569F4845034B86944412B1 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              072E9ECEDCB14D6D88B5C782 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1459CF86001246B5BC090643 /* Debug */,
+                            7C77802CBF864E48BAF1E761 /* Release */,
+                            2E5BA61748154254B773E0FC /* MinSizeRel */,
+                            8A34A347FFA94E8E813AE5E5 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              FC03D4E6839F44C28C08F761 /* Build configuration list for PBXNativeTarget "UnitTest++" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            B545BDF191CC48478563E798 /* Debug */,
+                            484CFF8934E84EDAA74EFD70 /* Release */,
+                            DAE9B2CA52DE40508EC4B5B8 /* MinSizeRel */,
+                            B5CA3710428F42069692C687 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              B0E8E90605BC42BDB25DED51 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            067FB9649A564370B69D6159 /* Debug */,
+                            97647CA889304D5883A0BF0B /* Release */,
+                            76247A4A6A2242FBAD698300 /* MinSizeRel */,
+                            0144E4ECE55443D49E0FACEE /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = A65D85E2CE9A4086A33F6639;
+}

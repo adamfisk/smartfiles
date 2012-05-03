@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "SmartFiles.plugin";
+NSHumanReadableCopyright = "Copyright 2012 SmartFiles LLC";

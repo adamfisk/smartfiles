@@ -1,0 +1,13 @@
+/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCoreTest/CMakeFiles/ALL_BUILD.dir
+/Users/afisk/code/firebreath-1.6/projects/build/cmake_common/CMakeFiles/FireBreath_Cmake.dir
+/Users/afisk/code/firebreath-1.6/projects/build/NpapiCore/CMakeFiles/NpapiCore.dir
+/Users/afisk/code/firebreath-1.6/projects/build/PluginCore/CMakeFiles/PluginCore.dir
+/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/PluginAuto/CMakeFiles/SFI_PluginAuto.dir
+/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore/CMakeFiles/ScriptingCore.dir
+/Users/afisk/code/firebreath-1.6/projects/build/projects/SmartFiles/CMakeFiles/SmartFiles.dir
+/Users/afisk/code/firebreath-1.6/projects/build/unittest-cpp/UnitTest++/CMakeFiles/UnitTest++.dir
+/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCoreTest/CMakeFiles/UnitTest_ScriptingCore.dir
+/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCoreTest/CMakeFiles/ZERO_CHECK.dir
+/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/filesystem/CMakeFiles/boost_filesystem.dir
+/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/system/CMakeFiles/boost_system.dir
+/Users/afisk/code/firebreath-1.6/projects/build/boost/libs/thread/CMakeFiles/boost_thread.dir

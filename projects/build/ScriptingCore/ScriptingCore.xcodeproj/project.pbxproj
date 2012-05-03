@@ -1,0 +1,937 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              129E1D4DF5634B47BF700E07 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 6D21B82B58B54F42A942FBBB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            BF2A78460EB64F989E8B7A02 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            A7312C6B3CAA44C89AFD42FB /* PBXTargetDependency */,
+                            C3E93F7FDDE84A7B8A19FCF9 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              99C6E6FD3BD448B3B5947D32 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 10C221F769AA4AE7B7CE865E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            7E15BA13F87444539AF524D7 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+1D2F1B005C474874A3E8D952 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/APITypes.h */ = {isa = PBXBuildFile; fileRef = 4469ED8BE3584CA8899F1B85 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/APITypes.h */; settings = { COMPILER_FLAGS = ""; }; };
+F34DD6EC4D6F46AFA1A50F45 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant.cpp */ = {isa = PBXBuildFile; fileRef = C2BC96EDE0694DBD996FD7A6 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6D49BDC1DA4E4C8B954FD899 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant.h */ = {isa = PBXBuildFile; fileRef = 3CFFC6BAF0884D9A8761251E /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant.h */; settings = { COMPILER_FLAGS = ""; }; };
+C6865FC9A9E944DDAA4C971F /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant_conversions.h */ = {isa = PBXBuildFile; fileRef = 22A9C1A49CC045E7A8DFD0D6 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant_conversions.h */; settings = { COMPILER_FLAGS = ""; }; };
+D3BE8A4528784283B04ADBA2 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant_list.h */ = {isa = PBXBuildFile; fileRef = 89C438077F084933A2C7FC0C /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant_list.h */; settings = { COMPILER_FLAGS = ""; }; };
+8F42FEAFA8D5439BBA901173 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant_map.h */ = {isa = PBXBuildFile; fileRef = D07B8445A61E427FBAC5721C /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant_map.h */; settings = { COMPILER_FLAGS = ""; }; };
+ADCFC9F458114070865B9F79 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/TypeIDMap.h */ = {isa = PBXBuildFile; fileRef = 6DA1A56E41854F999373E744 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/TypeIDMap.h */; settings = { COMPILER_FLAGS = ""; }; };
+9939A4E2078C46EFB872E44C /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/utf8_tools.cpp */ = {isa = PBXBuildFile; fileRef = 888A4F711F644EE3A83BD282 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/utf8_tools.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+904842BC5F2B4EF08815DDE4 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/utf8_tools.h */ = {isa = PBXBuildFile; fileRef = AD77F5411BF94499A43EDD50 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/utf8_tools.h */; settings = { COMPILER_FLAGS = ""; }; };
+065A13AEF2794556A5ADBC0E /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/URI.cpp */ = {isa = PBXBuildFile; fileRef = 928C477B0F344FE4ACA56E77 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/URI.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C657516140FC478D981C4199 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/URI.h */ = {isa = PBXBuildFile; fileRef = EE75583A8C2F40F6AB26D2B4 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/URI.h */; settings = { COMPILER_FLAGS = ""; }; };
+F150D6E48284490795C25707 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/SafeQueue.h */ = {isa = PBXBuildFile; fileRef = 4E0E78B771624A81A7282077 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/SafeQueue.h */; settings = { COMPILER_FLAGS = ""; }; };
+036398E7898E4684B5FEE28B /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSExceptions.h */ = {isa = PBXBuildFile; fileRef = 4E5A5C99C3A14007947206E6 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSExceptions.h */; settings = { COMPILER_FLAGS = ""; }; };
+18CEED9379AD4FFD9D2323D3 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/FBPointers.h */ = {isa = PBXBuildFile; fileRef = 9F44A314A785420E85732351 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/FBPointers.h */; settings = { COMPILER_FLAGS = ""; }; };
+DB34061EEB2D449199DF3417 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/ShareableReference.h */ = {isa = PBXBuildFile; fileRef = A6DB9244CA7F4E4FB126E976 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/ShareableReference.h */; settings = { COMPILER_FLAGS = ""; }; };
+19E89BF313EE417386EFA5DA /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/logging.h */ = {isa = PBXBuildFile; fileRef = BB6E9CC0024745748EE36688 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/logging.h */; settings = { COMPILER_FLAGS = ""; }; };
+11E5E685EC1044F99912DBB7 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM.h */ = {isa = PBXBuildFile; fileRef = 0CA6A850A034497CA9D270CC /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM.h */; settings = { COMPILER_FLAGS = ""; }; };
+9674F314D05F40AF9A063B66 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Document.cpp */ = {isa = PBXBuildFile; fileRef = 1676D4CDA91C4B3784CF162D /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Document.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+ECB11A1A36554B79826F4043 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Document.h */ = {isa = PBXBuildFile; fileRef = ABC53FF1A4A3475DB3F283C0 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Document.h */; settings = { COMPILER_FLAGS = ""; }; };
+882AC6BD5DDB4BAB83383761 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Element.cpp */ = {isa = PBXBuildFile; fileRef = B3A8BE2696754A45AB226377 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Element.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5B70FB29A0D940638B98EF96 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Element.h */ = {isa = PBXBuildFile; fileRef = A4C924689FB04EB49164F9FB /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Element.h */; settings = { COMPILER_FLAGS = ""; }; };
+D0EBC89510F1460788EC20D1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Node.cpp */ = {isa = PBXBuildFile; fileRef = D6CF26D14D4F4AC3AF61A4B1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Node.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+9065027205E9466F86C1CC15 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Node.h */ = {isa = PBXBuildFile; fileRef = 564C5435DEA74B4A80C73152 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Node.h */; settings = { COMPILER_FLAGS = ""; }; };
+5A92FBF952E64BDDA077A030 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Window.cpp */ = {isa = PBXBuildFile; fileRef = C5E99CD9E52C4B2BACCA64C8 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Window.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E3866AB7678E419AB417E47D /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Window.h */ = {isa = PBXBuildFile; fileRef = 89CAF814B1A64AD5A1939594 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Window.h */; settings = { COMPILER_FLAGS = ""; }; };
+FE112E6481A64A90AB66318F /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/JSFakeArray.cpp */ = {isa = PBXBuildFile; fileRef = 70AAA784A84D46C5BFABA442 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/JSFakeArray.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DF17A413A6544D70BA6BF3F3 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/JSFakeArray.h */ = {isa = PBXBuildFile; fileRef = 50D00E5F667A496A88F73F56 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/JSFakeArray.h */; settings = { COMPILER_FLAGS = ""; }; };
+598692476E54438882BFA9E9 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/meta_util.h */ = {isa = PBXBuildFile; fileRef = 6C09CC4046EA422CA4ACE26C /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/meta_util.h */; settings = { COMPILER_FLAGS = ""; }; };
+4DB129EEAEB3439485EEABE2 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/meta_util_impl.h */ = {isa = PBXBuildFile; fileRef = 33A34D4B11394BD18DD857DC /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/meta_util_impl.h */; settings = { COMPILER_FLAGS = ""; }; };
+5DC1ED2D6BA54D37B31041A4 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/typesafe_event.h */ = {isa = PBXBuildFile; fileRef = EEC81B09FF4048D6866D4072 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/typesafe_event.h */; settings = { COMPILER_FLAGS = ""; }; };
+0D225706B9F446DA86D91FC0 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPI.h */ = {isa = PBXBuildFile; fileRef = 68F1506D33DB42538F5A3678 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPI.h */; settings = { COMPILER_FLAGS = ""; }; };
+E776AE3281144E61B39BEBCF /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIAuto.cpp */ = {isa = PBXBuildFile; fileRef = F6D778DF4E6E4A6E8B1B25C9 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIAuto.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EA5527EADB18497BBBD91600 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIAuto.h */ = {isa = PBXBuildFile; fileRef = 440586E4EA4943EFA8EF9A59 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIAuto.h */; settings = { COMPILER_FLAGS = ""; }; };
+EAAD188F9A69417882865252 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIImpl.cpp */ = {isa = PBXBuildFile; fileRef = 04740F91693849CA8B13328B /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIImpl.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1FC09FC8DF744132B71E84EA /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIImpl.h */ = {isa = PBXBuildFile; fileRef = 8240CE5FE5664164ADC4BEF1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIImpl.h */; settings = { COMPILER_FLAGS = ""; }; };
+5A75694632B64F0286525BE8 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIProxy.cpp */ = {isa = PBXBuildFile; fileRef = DEBD72E1012C4E9EBA9DA0B7 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIProxy.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EBDE2955A4184A74927093DE /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIProxy.h */ = {isa = PBXBuildFile; fileRef = A09AE009B77740A49F62D148 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIProxy.h */; settings = { COMPILER_FLAGS = ""; }; };
+1585E19B934443E2805F1C75 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPISimple.cpp */ = {isa = PBXBuildFile; fileRef = 406A3B3ADD0B424A85B5DC03 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPISimple.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E3800A284DCE48B4ABA57A0A /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPISimple.h */ = {isa = PBXBuildFile; fileRef = 4A1E2B4386A04CA8BFFACC6F /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPISimple.h */; settings = { COMPILER_FLAGS = ""; }; };
+80279AA9F054480EB0E40A42 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/BrowserHost.cpp */ = {isa = PBXBuildFile; fileRef = 2A2BB41417E844A48BAA3067 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/BrowserHost.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+70F87F8EB63D4B9281EB9155 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/BrowserHost.h */ = {isa = PBXBuildFile; fileRef = 987B2A7A3CBC4EE1AF83D8F3 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/BrowserHost.h */; settings = { COMPILER_FLAGS = ""; }; };
+0B1FE18837AF49A4A85EC8C3 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSObject.h */ = {isa = PBXBuildFile; fileRef = EC06F7B4E46F4227A1114CCF /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSObject.h */; settings = { COMPILER_FLAGS = ""; }; };
+9E9DB1EB2EF64B6DA0A3B7FA /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSArray.cpp */ = {isa = PBXBuildFile; fileRef = 77C19761ACD84394910893D1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSArray.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2EB24B36DB4144E1B103D659 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSArray.h */ = {isa = PBXBuildFile; fileRef = 3B363E49CF43480BBE856BA8 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSArray.h */; settings = { COMPILER_FLAGS = ""; }; };
+FF919B55A78B46179D0B1A11 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CrossThreadCall.cpp */ = {isa = PBXBuildFile; fileRef = 4D727E573D9A41FF87FAF245 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CrossThreadCall.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F754640665E64D92AB14869E /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CrossThreadCall.h */ = {isa = PBXBuildFile; fileRef = 7A9C18C524F84955B7D3D340 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CrossThreadCall.h */; settings = { COMPILER_FLAGS = ""; }; };
+C30BF64E14F84D448414F85A /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/AsyncFunctionCall.h */ = {isa = PBXBuildFile; fileRef = 93204975DA1E4D79ABACA3B7 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/AsyncFunctionCall.h */; settings = { COMPILER_FLAGS = ""; }; };
+7CE0B4BD4D3146FFAFA7767B /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/MethodConverter.h */ = {isa = PBXBuildFile; fileRef = C367EA669F784025B702A6A1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/MethodConverter.h */; settings = { COMPILER_FLAGS = ""; }; };
+2A7F510081C0473EB7C151B2 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/PropertyConverter.h */ = {isa = PBXBuildFile; fileRef = 64ADAE4E4A1D49B3B7DA730E /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/PropertyConverter.h */; settings = { COMPILER_FLAGS = ""; }; };
+5E6E6EAE08CA4EADA72895FE /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSCallback.h */ = {isa = PBXBuildFile; fileRef = 90D44DEAD2E0443DB5EC4DA2 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSCallback.h */; settings = { COMPILER_FLAGS = ""; }; };
+CF75B087A5654D52923EE0C7 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSFunction.cpp */ = {isa = PBXBuildFile; fileRef = 67EC908AF7F348F1BBCC0F28 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSFunction.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+052B383C16EE435F83E3F051 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSFunction.h */ = {isa = PBXBuildFile; fileRef = 0573B783C7654F2CAFDFAEB1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSFunction.h */; settings = { COMPILER_FLAGS = ""; }; };
+3D315738865A4C51BA217037 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSEvent.cpp */ = {isa = PBXBuildFile; fileRef = 8A40FF9BCB354BD8A34A9E07 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSEvent.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A35ACF43FEED4D6C841D1359 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSEvent.h */ = {isa = PBXBuildFile; fileRef = 817785E7976E457AA2565728 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSEvent.h */; settings = { COMPILER_FLAGS = ""; }; };
+222975B124784886825F8C2D /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/ConverterUtils.h */ = {isa = PBXBuildFile; fileRef = 17B5CD1303014D1FB6A93343 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/ConverterUtils.h */; settings = { COMPILER_FLAGS = ""; }; };
+6469CCD54F6149A4B6752FA0 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/TestJSAPI.h */ = {isa = PBXBuildFile; fileRef = D26AB7C3FA794670A971DB01 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/TestJSAPI.h */; settings = { COMPILER_FLAGS = ""; }; };
+D85DBD55EDA24B60B320B8CB /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/dispatch_gen.py */ = {isa = PBXBuildFile; fileRef = 06C4D7305E0640849880992D /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/dispatch_gen.py */; settings = { COMPILER_FLAGS = ""; }; };
+E5027BD9A6FB4A818D46A739 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8038B952615641B0AFDE50C8 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              F927114AA1534A549A96C81C /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              2B42BC3FEA674CFEAFDA2D88 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              FFB2D9C14FAB4D6BA7C70849 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              5B4224B285E7474E815852DD /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              9B3FE462362C464E987ACD75 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              BD5F502A984149E8BCB3BD3C /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 86461F3B846943A688EE724F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = BFC211C5298448FFB0AB43C9;
+                     remoteInfo = ScriptingCore;
+              };
+              989FB0421A914C7998FD5BEB /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 86461F3B846943A688EE724F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 99C6E6FD3BD448B3B5947D32;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+8038B952615641B0AFDE50C8 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+4469ED8BE3584CA8899F1B85 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/APITypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "APITypes.h"; path = "APITypes.h"; sourceTree = SOURCE_ROOT; };
+C2BC96EDE0694DBD996FD7A6 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "variant.cpp"; path = "variant.cpp"; sourceTree = SOURCE_ROOT; };
+3CFFC6BAF0884D9A8761251E /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "variant.h"; path = "variant.h"; sourceTree = SOURCE_ROOT; };
+22A9C1A49CC045E7A8DFD0D6 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant_conversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "variant_conversions.h"; path = "variant_conversions.h"; sourceTree = SOURCE_ROOT; };
+89C438077F084933A2C7FC0C /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "variant_list.h"; path = "variant_list.h"; sourceTree = SOURCE_ROOT; };
+D07B8445A61E427FBAC5721C /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "variant_map.h"; path = "variant_map.h"; sourceTree = SOURCE_ROOT; };
+6DA1A56E41854F999373E744 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/TypeIDMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "TypeIDMap.h"; path = "TypeIDMap.h"; sourceTree = SOURCE_ROOT; };
+888A4F711F644EE3A83BD282 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/utf8_tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "utf8_tools.cpp"; path = "utf8_tools.cpp"; sourceTree = SOURCE_ROOT; };
+AD77F5411BF94499A43EDD50 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/utf8_tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "utf8_tools.h"; path = "utf8_tools.h"; sourceTree = SOURCE_ROOT; };
+928C477B0F344FE4ACA56E77 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/URI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "URI.cpp"; path = "URI.cpp"; sourceTree = SOURCE_ROOT; };
+EE75583A8C2F40F6AB26D2B4 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/URI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "URI.h"; path = "URI.h"; sourceTree = SOURCE_ROOT; };
+4E0E78B771624A81A7282077 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/SafeQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "SafeQueue.h"; path = "SafeQueue.h"; sourceTree = SOURCE_ROOT; };
+4E5A5C99C3A14007947206E6 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "JSExceptions.h"; path = "JSExceptions.h"; sourceTree = SOURCE_ROOT; };
+9F44A314A785420E85732351 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/FBPointers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "FBPointers.h"; path = "FBPointers.h"; sourceTree = SOURCE_ROOT; };
+A6DB9244CA7F4E4FB126E976 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/ShareableReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ShareableReference.h"; path = "ShareableReference.h"; sourceTree = SOURCE_ROOT; };
+BB6E9CC0024745748EE36688 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "logging.h"; path = "logging.h"; sourceTree = SOURCE_ROOT; };
+0CA6A850A034497CA9D270CC /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "DOM.h"; path = "DOM.h"; sourceTree = SOURCE_ROOT; };
+1676D4CDA91C4B3784CF162D /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Document.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "Document.cpp"; path = "DOM/Document.cpp"; sourceTree = SOURCE_ROOT; };
+ABC53FF1A4A3475DB3F283C0 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "Document.h"; path = "DOM/Document.h"; sourceTree = SOURCE_ROOT; };
+B3A8BE2696754A45AB226377 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Element.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "Element.cpp"; path = "DOM/Element.cpp"; sourceTree = SOURCE_ROOT; };
+A4C924689FB04EB49164F9FB /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "Element.h"; path = "DOM/Element.h"; sourceTree = SOURCE_ROOT; };
+D6CF26D14D4F4AC3AF61A4B1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "Node.cpp"; path = "DOM/Node.cpp"; sourceTree = SOURCE_ROOT; };
+564C5435DEA74B4A80C73152 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "Node.h"; path = "DOM/Node.h"; sourceTree = SOURCE_ROOT; };
+C5E99CD9E52C4B2BACCA64C8 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "Window.cpp"; path = "DOM/Window.cpp"; sourceTree = SOURCE_ROOT; };
+89CAF814B1A64AD5A1939594 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "Window.h"; path = "DOM/Window.h"; sourceTree = SOURCE_ROOT; };
+70AAA784A84D46C5BFABA442 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/JSFakeArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "JSFakeArray.cpp"; path = "Util/JSFakeArray.cpp"; sourceTree = SOURCE_ROOT; };
+50D00E5F667A496A88F73F56 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/JSFakeArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "JSFakeArray.h"; path = "Util/JSFakeArray.h"; sourceTree = SOURCE_ROOT; };
+6C09CC4046EA422CA4ACE26C /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/meta_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "meta_util.h"; path = "Util/meta_util.h"; sourceTree = SOURCE_ROOT; };
+33A34D4B11394BD18DD857DC /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/meta_util_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "meta_util_impl.h"; path = "Util/meta_util_impl.h"; sourceTree = SOURCE_ROOT; };
+EEC81B09FF4048D6866D4072 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/typesafe_event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "typesafe_event.h"; path = "Util/typesafe_event.h"; sourceTree = SOURCE_ROOT; };
+68F1506D33DB42538F5A3678 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "JSAPI.h"; path = "JSAPI.h"; sourceTree = SOURCE_ROOT; };
+F6D778DF4E6E4A6E8B1B25C9 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIAuto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "JSAPIAuto.cpp"; path = "JSAPIAuto.cpp"; sourceTree = SOURCE_ROOT; };
+440586E4EA4943EFA8EF9A59 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIAuto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "JSAPIAuto.h"; path = "JSAPIAuto.h"; sourceTree = SOURCE_ROOT; };
+04740F91693849CA8B13328B /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "JSAPIImpl.cpp"; path = "JSAPIImpl.cpp"; sourceTree = SOURCE_ROOT; };
+8240CE5FE5664164ADC4BEF1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "JSAPIImpl.h"; path = "JSAPIImpl.h"; sourceTree = SOURCE_ROOT; };
+DEBD72E1012C4E9EBA9DA0B7 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIProxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "JSAPIProxy.cpp"; path = "JSAPIProxy.cpp"; sourceTree = SOURCE_ROOT; };
+A09AE009B77740A49F62D148 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "JSAPIProxy.h"; path = "JSAPIProxy.h"; sourceTree = SOURCE_ROOT; };
+406A3B3ADD0B424A85B5DC03 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPISimple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "JSAPISimple.cpp"; path = "JSAPISimple.cpp"; sourceTree = SOURCE_ROOT; };
+4A1E2B4386A04CA8BFFACC6F /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPISimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "JSAPISimple.h"; path = "JSAPISimple.h"; sourceTree = SOURCE_ROOT; };
+2A2BB41417E844A48BAA3067 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/BrowserHost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "BrowserHost.cpp"; path = "BrowserHost.cpp"; sourceTree = SOURCE_ROOT; };
+987B2A7A3CBC4EE1AF83D8F3 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/BrowserHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "BrowserHost.h"; path = "BrowserHost.h"; sourceTree = SOURCE_ROOT; };
+EC06F7B4E46F4227A1114CCF /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "JSObject.h"; path = "JSObject.h"; sourceTree = SOURCE_ROOT; };
+77C19761ACD84394910893D1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "JSArray.cpp"; path = "JSArray.cpp"; sourceTree = SOURCE_ROOT; };
+3B363E49CF43480BBE856BA8 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "JSArray.h"; path = "JSArray.h"; sourceTree = SOURCE_ROOT; };
+4D727E573D9A41FF87FAF245 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CrossThreadCall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "CrossThreadCall.cpp"; path = "CrossThreadCall.cpp"; sourceTree = SOURCE_ROOT; };
+7A9C18C524F84955B7D3D340 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CrossThreadCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "CrossThreadCall.h"; path = "CrossThreadCall.h"; sourceTree = SOURCE_ROOT; };
+93204975DA1E4D79ABACA3B7 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/AsyncFunctionCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "AsyncFunctionCall.h"; path = "AsyncFunctionCall.h"; sourceTree = SOURCE_ROOT; };
+C367EA669F784025B702A6A1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/MethodConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "MethodConverter.h"; path = "MethodConverter.h"; sourceTree = SOURCE_ROOT; };
+64ADAE4E4A1D49B3B7DA730E /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/PropertyConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "PropertyConverter.h"; path = "PropertyConverter.h"; sourceTree = SOURCE_ROOT; };
+90D44DEAD2E0443DB5EC4DA2 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "JSCallback.h"; path = "JSCallback.h"; sourceTree = SOURCE_ROOT; };
+67EC908AF7F348F1BBCC0F28 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "JSFunction.cpp"; path = "JSFunction.cpp"; sourceTree = SOURCE_ROOT; };
+0573B783C7654F2CAFDFAEB1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "JSFunction.h"; path = "JSFunction.h"; sourceTree = SOURCE_ROOT; };
+8A40FF9BCB354BD8A34A9E07 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "JSEvent.cpp"; path = "JSEvent.cpp"; sourceTree = SOURCE_ROOT; };
+817785E7976E457AA2565728 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "JSEvent.h"; path = "JSEvent.h"; sourceTree = SOURCE_ROOT; };
+17B5CD1303014D1FB6A93343 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/ConverterUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ConverterUtils.h"; path = "ConverterUtils.h"; sourceTree = SOURCE_ROOT; };
+D26AB7C3FA794670A971DB01 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/TestJSAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "TestJSAPI.h"; path = "TestJSAPI.h"; sourceTree = SOURCE_ROOT; };
+06C4D7305E0640849880992D /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/dispatch_gen.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = "dispatch_gen.py"; path = "dispatch_gen.py"; sourceTree = SOURCE_ROOT; };
+8E13717849CA42FDACE3045A /* ScriptingCore */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libScriptingCore.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              AA6D946BB0FA4C1680AE2CC6  = {
+                     isa = PBXGroup;
+                     children = (
+                            1A635AFE8AF0411A9F1F6719 /* Sources */,
+                            4FD982CAB13B48DEBB9F5511 /* Resources */,
+                            D0D3304685BD46E5BE1140F7 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              1A635AFE8AF0411A9F1F6719 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            78599B8F748E4FBA871F7826 /* ALL_BUILD */,
+                            EBDCA9E58DA940C9A10DDB71 /* FireBreath Core */,
+                            B4FD9C890B3348C8A5A6CB2D /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              4FD982CAB13B48DEBB9F5511 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              78599B8F748E4FBA871F7826 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1E39CDD6838241FD9B1D9D53 /* CMake Rules */,
+                            8038B952615641B0AFDE50C8 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              1E39CDD6838241FD9B1D9D53 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              EBDCA9E58DA940C9A10DDB71 /* FireBreath Core */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B978E95ACC8F4B66AAA82068 /* ScriptingCore */,
+                     );
+                     name = "FireBreath Core";
+                     sourceTree = "<group>";
+              };
+              B978E95ACC8F4B66AAA82068 /* ScriptingCore */ = {
+                     isa = PBXGroup;
+                     children = (
+                            45CF3778417A4039A60F003A /* Types */,
+                            AD77A8BA5F0146FB9F944368 /* DOM */,
+                            C2316C95A8D743F9A6F5F133 /* Util */,
+                            071D8CD050EB40B9943BD441 /* JSAPI */,
+                            1FED0F75F0D3467DB2E365F8 /* Header Files */,
+                            06C4D7305E0640849880992D /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/dispatch_gen.py */,
+                            8038B952615641B0AFDE50C8 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CMakeLists.txt */,
+                     );
+                     name = ScriptingCore;
+                     sourceTree = "<group>";
+              };
+              45CF3778417A4039A60F003A /* Types */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4469ED8BE3584CA8899F1B85 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/APITypes.h */,
+                            C2BC96EDE0694DBD996FD7A6 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant.cpp */,
+                            3CFFC6BAF0884D9A8761251E /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant.h */,
+                            22A9C1A49CC045E7A8DFD0D6 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant_conversions.h */,
+                            89C438077F084933A2C7FC0C /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant_list.h */,
+                            D07B8445A61E427FBAC5721C /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant_map.h */,
+                            6DA1A56E41854F999373E744 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/TypeIDMap.h */,
+                            888A4F711F644EE3A83BD282 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/utf8_tools.cpp */,
+                            AD77F5411BF94499A43EDD50 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/utf8_tools.h */,
+                            928C477B0F344FE4ACA56E77 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/URI.cpp */,
+                            EE75583A8C2F40F6AB26D2B4 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/URI.h */,
+                            4E0E78B771624A81A7282077 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/SafeQueue.h */,
+                            4E5A5C99C3A14007947206E6 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSExceptions.h */,
+                            9F44A314A785420E85732351 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/FBPointers.h */,
+                            A6DB9244CA7F4E4FB126E976 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/ShareableReference.h */,
+                            BB6E9CC0024745748EE36688 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/logging.h */,
+                     );
+                     name = Types;
+                     sourceTree = "<group>";
+              };
+              AD77A8BA5F0146FB9F944368 /* DOM */ = {
+                     isa = PBXGroup;
+                     children = (
+                            0CA6A850A034497CA9D270CC /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM.h */,
+                            1676D4CDA91C4B3784CF162D /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Document.cpp */,
+                            ABC53FF1A4A3475DB3F283C0 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Document.h */,
+                            B3A8BE2696754A45AB226377 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Element.cpp */,
+                            A4C924689FB04EB49164F9FB /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Element.h */,
+                            D6CF26D14D4F4AC3AF61A4B1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Node.cpp */,
+                            564C5435DEA74B4A80C73152 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Node.h */,
+                            C5E99CD9E52C4B2BACCA64C8 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Window.cpp */,
+                            89CAF814B1A64AD5A1939594 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Window.h */,
+                     );
+                     name = DOM;
+                     sourceTree = "<group>";
+              };
+              C2316C95A8D743F9A6F5F133 /* Util */ = {
+                     isa = PBXGroup;
+                     children = (
+                            70AAA784A84D46C5BFABA442 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/JSFakeArray.cpp */,
+                            50D00E5F667A496A88F73F56 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/JSFakeArray.h */,
+                            6C09CC4046EA422CA4ACE26C /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/meta_util.h */,
+                            33A34D4B11394BD18DD857DC /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/meta_util_impl.h */,
+                            EEC81B09FF4048D6866D4072 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/typesafe_event.h */,
+                     );
+                     name = Util;
+                     sourceTree = "<group>";
+              };
+              071D8CD050EB40B9943BD441 /* JSAPI */ = {
+                     isa = PBXGroup;
+                     children = (
+                            68F1506D33DB42538F5A3678 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPI.h */,
+                            F6D778DF4E6E4A6E8B1B25C9 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIAuto.cpp */,
+                            440586E4EA4943EFA8EF9A59 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIAuto.h */,
+                            04740F91693849CA8B13328B /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIImpl.cpp */,
+                            8240CE5FE5664164ADC4BEF1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIImpl.h */,
+                            DEBD72E1012C4E9EBA9DA0B7 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIProxy.cpp */,
+                            A09AE009B77740A49F62D148 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIProxy.h */,
+                            406A3B3ADD0B424A85B5DC03 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPISimple.cpp */,
+                            4A1E2B4386A04CA8BFFACC6F /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPISimple.h */,
+                            2A2BB41417E844A48BAA3067 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/BrowserHost.cpp */,
+                            987B2A7A3CBC4EE1AF83D8F3 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/BrowserHost.h */,
+                            EC06F7B4E46F4227A1114CCF /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSObject.h */,
+                            77C19761ACD84394910893D1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSArray.cpp */,
+                            3B363E49CF43480BBE856BA8 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSArray.h */,
+                            4D727E573D9A41FF87FAF245 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CrossThreadCall.cpp */,
+                            7A9C18C524F84955B7D3D340 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CrossThreadCall.h */,
+                            93204975DA1E4D79ABACA3B7 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/AsyncFunctionCall.h */,
+                            C367EA669F784025B702A6A1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/MethodConverter.h */,
+                            64ADAE4E4A1D49B3B7DA730E /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/PropertyConverter.h */,
+                            90D44DEAD2E0443DB5EC4DA2 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSCallback.h */,
+                            67EC908AF7F348F1BBCC0F28 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSFunction.cpp */,
+                            0573B783C7654F2CAFDFAEB1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSFunction.h */,
+                            8A40FF9BCB354BD8A34A9E07 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSEvent.cpp */,
+                            817785E7976E457AA2565728 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSEvent.h */,
+                     );
+                     name = JSAPI;
+                     sourceTree = "<group>";
+              };
+              1FED0F75F0D3467DB2E365F8 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            17B5CD1303014D1FB6A93343 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/ConverterUtils.h */,
+                            D26AB7C3FA794670A971DB01 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/TestJSAPI.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              B4FD9C890B3348C8A5A6CB2D /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6B280050885C4E0C80BA7E12 /* CMake Rules */,
+                            8038B952615641B0AFDE50C8 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              6B280050885C4E0C80BA7E12 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              D0D3304685BD46E5BE1140F7 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8E13717849CA42FDACE3045A /* ScriptingCore */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              BFC211C5298448FFB0AB43C9 /* ScriptingCore */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 394B82478DAE4BA6A624F0EB /* Build configuration list for PBXNativeTarget "ScriptingCore" */;
+                     buildPhases = (
+                            41BAA57F2427410A9E3C23D2 /* Sources */,
+                            206F13E130004AF9B5D46AD8 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            C3E93F7FDDE84A7B8A19FCF9 /* PBXTargetDependency */,
+                     );
+                     name = ScriptingCore;
+                     productName = ScriptingCore;
+                     productReference = 8E13717849CA42FDACE3045A /* ScriptingCore */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              86461F3B846943A688EE724F /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 804DF510961C464DBEAB1826 /* Build configuration list for PBXProject  "ScriptingCore" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            2B42BC3FEA674CFEAFDA2D88 /* Debug */,
+                            FFB2D9C14FAB4D6BA7C70849 /* Release */,
+                            5B4224B285E7474E815852DD /* MinSizeRel */,
+                            9B3FE462362C464E987ACD75 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = AA6D946BB0FA4C1680AE2CC6;
+                     projectDirPath = "../../../src/ScriptingCore";
+                     projectRoot = "";
+                     targets = (
+                            129E1D4DF5634B47BF700E07 /* ALL_BUILD */,
+                            BFC211C5298448FFB0AB43C9 /* ScriptingCore */,
+                            99C6E6FD3BD448B3B5947D32 /* ZERO_CHECK */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              74E362EDC46F4551ABF608E0 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              BF2A78460EB64F989E8B7A02 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore -f /Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              206F13E130004AF9B5D46AD8 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore -f /Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore/CMakeScripts/ScriptingCore_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              4387DDAA9520412EA58E25F7 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              7E15BA13F87444539AF524D7 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore -f /Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              41BAA57F2427410A9E3C23D2 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            F34DD6EC4D6F46AFA1A50F45 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/variant.cpp */,
+                            9939A4E2078C46EFB872E44C /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/utf8_tools.cpp */,
+                            065A13AEF2794556A5ADBC0E /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/URI.cpp */,
+                            9674F314D05F40AF9A063B66 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Document.cpp */,
+                            882AC6BD5DDB4BAB83383761 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Element.cpp */,
+                            D0EBC89510F1460788EC20D1 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Node.cpp */,
+                            5A92FBF952E64BDDA077A030 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/DOM/Window.cpp */,
+                            FE112E6481A64A90AB66318F /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/Util/JSFakeArray.cpp */,
+                            E776AE3281144E61B39BEBCF /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIAuto.cpp */,
+                            EAAD188F9A69417882865252 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIImpl.cpp */,
+                            5A75694632B64F0286525BE8 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPIProxy.cpp */,
+                            1585E19B934443E2805F1C75 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSAPISimple.cpp */,
+                            80279AA9F054480EB0E40A42 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/BrowserHost.cpp */,
+                            9E9DB1EB2EF64B6DA0A3B7FA /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSArray.cpp */,
+                            FF919B55A78B46179D0B1A11 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/CrossThreadCall.cpp */,
+                            CF75B087A5654D52923EE0C7 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSFunction.cpp */,
+                            3D315738865A4C51BA217037 /* /Users/afisk/code/firebreath-1.6/src/ScriptingCore/JSEvent.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              A7312C6B3CAA44C89AFD42FB /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = BFC211C5298448FFB0AB43C9 /* ScriptingCore */;
+                     targetProxy = BD5F502A984149E8BCB3BD3C /* PBXContainerItemProxy */;
+              };
+              C3E93F7FDDE84A7B8A19FCF9 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 99C6E6FD3BD448B3B5947D32 /* ZERO_CHECK */;
+                     targetProxy = 989FB0421A914C7998FD5BEB /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              74567272E5C847628E062630 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "i386 x86_64";
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore/build";
+                     };
+                     name = Debug;
+              };
+              9F0BA93075E74AB187AE45A6 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "i386 x86_64";
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore/build";
+                     };
+                     name = Release;
+              };
+              455AAC617FC240B0BFA7497B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "i386 x86_64";
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore/build";
+                     };
+                     name = MinSizeRel;
+              };
+              D8E44107CCBC4252B475CB62 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "i386 x86_64";
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              41F1D81A1F8948E0A36988BB /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/src/ScriptingCore", "/Users/afisk/code/firebreath-1.6/src/config", "/Users/afisk/code/firebreath-1.6/src/PluginCore", "/Users/afisk/code/firebreath-1.6/src/3rdParty/boost", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              5FBDFB07B4E64A8283658E9C /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/src/ScriptingCore", "/Users/afisk/code/firebreath-1.6/src/config", "/Users/afisk/code/firebreath-1.6/src/PluginCore", "/Users/afisk/code/firebreath-1.6/src/3rdParty/boost", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              E617061561DE4477A7E11F7F /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/src/ScriptingCore", "/Users/afisk/code/firebreath-1.6/src/config", "/Users/afisk/code/firebreath-1.6/src/PluginCore", "/Users/afisk/code/firebreath-1.6/src/3rdParty/boost", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              E3565B1C85874703A293C11F /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/src/ScriptingCore", "/Users/afisk/code/firebreath-1.6/src/config", "/Users/afisk/code/firebreath-1.6/src/PluginCore", "/Users/afisk/code/firebreath-1.6/src/3rdParty/boost", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              CE682B3757654E3C911EB112 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/src/ScriptingCore", "/Users/afisk/code/firebreath-1.6/src/config", "/Users/afisk/code/firebreath-1.6/src/PluginCore", "/Users/afisk/code/firebreath-1.6/src/3rdParty/boost", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1     ";
+                            OTHER_CPLUSPLUSFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1     ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ScriptingCore;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              546CF22721BA42A28FF384AC /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/src/ScriptingCore", "/Users/afisk/code/firebreath-1.6/src/config", "/Users/afisk/code/firebreath-1.6/src/PluginCore", "/Users/afisk/code/firebreath-1.6/src/3rdParty/boost", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ScriptingCore;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              DA84506147714C9896BA3579 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/src/ScriptingCore", "/Users/afisk/code/firebreath-1.6/src/config", "/Users/afisk/code/firebreath-1.6/src/PluginCore", "/Users/afisk/code/firebreath-1.6/src/3rdParty/boost", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ScriptingCore;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              6DC77E728D9140CA8CC50F0D /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/src/ScriptingCore", "/Users/afisk/code/firebreath-1.6/src/config", "/Users/afisk/code/firebreath-1.6/src/PluginCore", "/Users/afisk/code/firebreath-1.6/src/3rdParty/boost", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1        -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -DFB_MACOSX=1 -DXP_UNIX -DXP_MACOSX  -DBOOST_ALL_NO_LIB=1        -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ScriptingCore;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              498A1B9F526745D2910B537A /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/src/ScriptingCore", "/Users/afisk/code/firebreath-1.6/src/config", "/Users/afisk/code/firebreath-1.6/src/PluginCore", "/Users/afisk/code/firebreath-1.6/src/3rdParty/boost", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              DDC122EC82D64C1DBFDD344A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/src/ScriptingCore", "/Users/afisk/code/firebreath-1.6/src/config", "/Users/afisk/code/firebreath-1.6/src/PluginCore", "/Users/afisk/code/firebreath-1.6/src/3rdParty/boost", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              0D3A246DFA0240FFA8F49C7B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/src/ScriptingCore", "/Users/afisk/code/firebreath-1.6/src/config", "/Users/afisk/code/firebreath-1.6/src/PluginCore", "/Users/afisk/code/firebreath-1.6/src/3rdParty/boost", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              EF70B19A7E4F4702B08F445E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = (i386, x86_64, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/afisk/code/firebreath-1.6/src/ScriptingCore", "/Users/afisk/code/firebreath-1.6/src/config", "/Users/afisk/code/firebreath-1.6/src/PluginCore", "/Users/afisk/code/firebreath-1.6/src/3rdParty/boost", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/afisk/code/firebreath-1.6/projects/build/ScriptingCore";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              804DF510961C464DBEAB1826 /* Build configuration list for PBXProject  "ScriptingCore" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            74567272E5C847628E062630 /* Debug */,
+                            9F0BA93075E74AB187AE45A6 /* Release */,
+                            455AAC617FC240B0BFA7497B /* MinSizeRel */,
+                            D8E44107CCBC4252B475CB62 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              6D21B82B58B54F42A942FBBB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            41F1D81A1F8948E0A36988BB /* Debug */,
+                            5FBDFB07B4E64A8283658E9C /* Release */,
+                            E617061561DE4477A7E11F7F /* MinSizeRel */,
+                            E3565B1C85874703A293C11F /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              394B82478DAE4BA6A624F0EB /* Build configuration list for PBXNativeTarget "ScriptingCore" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            CE682B3757654E3C911EB112 /* Debug */,
+                            546CF22721BA42A28FF384AC /* Release */,
+                            DA84506147714C9896BA3579 /* MinSizeRel */,
+                            6DC77E728D9140CA8CC50F0D /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              10C221F769AA4AE7B7CE865E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            498A1B9F526745D2910B537A /* Debug */,
+                            DDC122EC82D64C1DBFDD344A /* Release */,
+                            0D3A246DFA0240FFA8F49C7B /* MinSizeRel */,
+                            EF70B19A7E4F4702B08F445E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 86461F3B846943A688EE724F;
+}

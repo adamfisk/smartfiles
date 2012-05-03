@@ -1,0 +1,66 @@
+HKCR {
+    SmartFilesLLC.SmartFiles.1 = s 'Fast Secure Downloads' {
+        CLSID = s '{3a5d991b-914c-5e54-aeb2-4d69c7a4a223}'
+    }
+    SmartFilesLLC.SmartFiles = s 'Fast Secure Downloads' {
+        CLSID = s '{3a5d991b-914c-5e54-aeb2-4d69c7a4a223}'
+        CurVer = s 'SmartFilesLLC.SmartFiles.1'
+    }
+    NoRemove CLSID {
+        ForceRemove {3a5d991b-914c-5e54-aeb2-4d69c7a4a223} = s 'Fast Secure Downloads' {
+            ProgID = s 'SmartFilesLLC.SmartFiles.1'
+            VersionIndependentProgID = s 'SmartFilesLLC.SmartFiles'
+            ForceRemove 'Programmable'
+            InprocServer32 = s '%MODULE%' {
+                val ThreadingModel = s '%THREADING%'
+            }
+            val AppID = s '%APPID%'
+            ForceRemove 'Control'
+            'MiscStatus' = s '0' {
+                '1' = s '131473'
+            }
+            'TypeLib' = s '%LIBID%'
+            'Version' = s '1'
+        }
+    }
+    NoRemove MIME {
+        NoRemove Database {
+            NoRemove 'Content Type' {
+                'application/x-smartfiles' = s 'Fast Secure Downloads' {
+                    val Extension = s ''
+                    val CLSID = s '{3a5d991b-914c-5e54-aeb2-4d69c7a4a223}'
+                }
+            }
+        }
+    }            
+}
+HKCU {
+    NoRemove Software {
+        NoRemove Microsoft {
+            NoRemove Windows {
+                NoRemove CurrentVersion {
+                    NoRemove Ext {
+                        NoRemove PreApproved {
+                            ForceRemove '{3a5d991b-914c-5e54-aeb2-4d69c7a4a223}'
+                        }
+                        NoRemove Stats {
+                            ForceRemove '{3a5d991b-914c-5e54-aeb2-4d69c7a4a223}' {
+                                iexplore {
+                                    AllowedDomains {
+                                        '*'
+                                    }
+                                    val Count = d ''
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        NoRemove MozillaPlugins {
+            ForceRemove 'smartfil.es/SmartFiles' {
+                val Path = s '%MODULE%'
+            }
+        }
+    }
+}
